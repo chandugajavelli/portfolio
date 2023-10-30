@@ -212,6 +212,15 @@ nav ul li {
     display: block;
   }
 
+  .contact-right span{
+    display: inline;
+    text-align: right;
+    width: 70%;
+    float: right;
+    margin: 0;
+    font-size: medium;
+  }
+
 /* -----------------------------------------------------------------------------media queries------------------------------------------------- */
 @media only screen and (max-width:600px) {
 
