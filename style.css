@@ -205,9 +205,106 @@ nav ul li {
     transform: translateY(-5px);
   }
 
-  button{
+  #msg{
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 10px;
+    display: block;
+  }
+
+/* -----------------------------------------------------------------------------media queries------------------------------------------------- */
+@media only screen and (max-width:600px) {
+
+  #portfolio-icon{
+    display: inline;
     margin:auto
   }
+
+  .intro-text{
+    margin-top: 30%;
+  }
+
+  nav ul{
+    margin: 5% 5% 0 1%;
+    padding :0;
+  }
+  nav ul li{
+    margin-right: 0;
+  }
+
+  nav ul li a:visited{color: #fff;}
+
+  #About{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0 100px;
+  }
+
+  .myself{
+    width:80%
+  }
+
+  .mypic{
+    width : 100%
+    
+}
+
+.mypic img{
+    /* width: 65%;
+    height: 80%; */
+    border-radius: 20px;
+    float:left;
+    margin-top: 10%;;
+    margin-left: 15%;
+}
+
+.tab-links{
+  margin-right: 20px;
+}
+
+.contact-left{
+  flex-basis: 100%;
+}
+
+.contact-right{
+  flex-basis: 100%;
+  margin-top: 15px;
+}
+.contact-left p{
+  font-size: small;
+}
+
+.social-icons p{
+  font-size: larger;
+  margin-top: 5px;
+}
+.contact-right form{
+  height: 80%;
+}
+
+.contact-right form button{
+  text-align: center;
+}
+
+form input{
+  height: 47px;
+  margin-bottom: 0;
+}
+
+form textarea{
+  height: 150px;
+}
+
+.contact-right span{
+  display: inline-block;
+  text-align: right;
+  width: 70%;
+  float: right;
+  padding-top: 10px;
+  font-size: small;
+}
+}
+
 
 
 
