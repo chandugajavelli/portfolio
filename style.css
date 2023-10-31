@@ -234,7 +234,7 @@ nav ul li {
   }
 
   nav ul{
-    margin: 5% 5% 0 1%;
+    margin: 5% 5% 0 5%;
     padding :0;
   }
   nav ul li{
@@ -264,7 +264,7 @@ nav ul li {
     border-radius: 20px;
     float:left;
     margin-top: 10%;;
-    margin-left: 15%;
+    margin-left: 17%;
 }
 
 .tab-links{
